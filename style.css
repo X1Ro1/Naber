@@ -10,7 +10,7 @@ body {
 
 @font-face {
     font-family: 'HelveticaNeueCyr';
-    src: url("../fonts/helveticaneuecyr_roman.otf");
+    src: url(fonts/helveticaneuecyr_roman.otf);
 }
 
 /* Хидер */

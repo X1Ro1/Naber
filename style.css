@@ -10,7 +10,7 @@ body {
 
 @font-face {
     font-family: 'HelveticaNeueCyr';
-    src: url("fonts/helveticaneuecyr_roman.otf");
+    src: url("../fonts/helveticaneuecyr_roman.otf");
 }
 
 /* Хидер */
@@ -110,19 +110,20 @@ body {
 
 .footer-block {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .footer h1{
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'HelveticaNeueCyr';
 
 }
 .footer a{
     text-decoration: none;
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'HelveticaNeueCyr';
 }
 
@@ -173,6 +174,14 @@ body {
     max-width: 1440px;
     min-height: 260px;
     background: #3F3297;
+}
+
+hr {
+    border: none; 
+    background-color: #ffffff; 
+    color: #ffffff; 
+    height: 1px;
+    width: 200px;
 }
 
 
